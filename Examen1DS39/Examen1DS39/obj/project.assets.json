@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhonj\\source\\repos\\Examen1DS39\\Examen1DS39\\Examen1DS39.csproj",
+      "projectUniqueName": "C:\\Users\\jhonj\\Documents\\GitHub\\Exame1DS39\\Examen1DS39\\Examen1DS39\\Examen1DS39.csproj",
       "projectName": "Examen1DS39",
-      "projectPath": "C:\\Users\\jhonj\\source\\repos\\Examen1DS39\\Examen1DS39\\Examen1DS39.csproj",
+      "projectPath": "C:\\Users\\jhonj\\Documents\\GitHub\\Exame1DS39\\Examen1DS39\\Examen1DS39\\Examen1DS39.csproj",
       "packagesPath": "C:\\Users\\jhonj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhonj\\source\\repos\\Examen1DS39\\Examen1DS39\\obj\\",
+      "outputPath": "C:\\Users\\jhonj\\Documents\\GitHub\\Exame1DS39\\Examen1DS39\\Examen1DS39\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhonj\\AppData\\Roaming\\NuGet\\NuGet.Config",
