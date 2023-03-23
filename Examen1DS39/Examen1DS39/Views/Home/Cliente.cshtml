@@ -4,7 +4,7 @@
 <hr />
 <fieldset>
     <form asp-action="Cliente" asp-controller="Home" method="post" id="form2">
-        <label asp-for="Cod_prod"></label>
+        <label asp-for="Cod_prod">Codigo Producto</label>
         <input id="Cod_prod" asp-for="Cod_prod" class="form-control" />
         <span asp-validation-for="Cod_prod" class="badge bg-danger"></span>
         <br/>
@@ -19,7 +19,7 @@
         <span asp-validation-for="Descripcion" class="badge bg-danger"></span>
         <br/>
 
-        <label asp-for="Precio_unit"></label>
+        <label asp-for="Precio_unit">Precio Unitario</label>
         <input id="Precio_unit" asp-for="Precio_unit" class="form-control" />
         <span asp-validation-for="Precio_unit" class="badge bg-danger"></span>
         <br/>
