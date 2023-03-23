@@ -23,6 +23,19 @@ namespace Examen1DS39.Controllers
             return View();
         }
 
+        public IActionResult Usuario()
+        {
+            return View();
+        }
+        public IActionResult Cliente()
+        {
+            return View();
+        }
+        public IActionResult Admin()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

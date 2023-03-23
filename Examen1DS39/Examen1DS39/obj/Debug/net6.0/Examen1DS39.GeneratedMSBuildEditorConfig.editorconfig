@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\jhonj\Documents\GitHub\Exame1DS39\Examen1DS39\Examen1DS39
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/jhonj/Documents/GitHub/Exame1DS39/Examen1DS39/Examen1DS39/Views/Home/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jhonj/Documents/GitHub/Exame1DS39/Examen1DS39/Examen1DS39/Views/Home/Cliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jhonj/Documents/GitHub/Exame1DS39/Examen1DS39/Examen1DS39/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

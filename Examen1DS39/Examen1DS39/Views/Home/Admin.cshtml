@@ -1,0 +1,76 @@
+﻿@model Usuario
+
+<h3>Formulario de Cliente</h3>
+<hr />
+<fieldset>
+    <form asp-action="Cliente" asp-controller="Home" method="post" id="form2">
+        <label asp-for="Cod_prod">Codigo Producto</label>
+        <input id="Cod_prod" asp-for="Cod_prod" class="form-control" />
+        <span asp-validation-for="Cod_prod" class="badge bg-danger"></span>
+        <br />
+
+        <label asp-for="Nombre"></label>
+        <input id="Nombre" asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="badge bg-danger"></span>
+        <br />
+
+        <label asp-for="Descripcion"></label>
+        <input id="Descripcion" asp-for="Descripcion" class="form-control" />
+        <span asp-validation-for="Descripcion" class="badge bg-danger"></span>
+        <br />
+
+        <label asp-for="Precio_unit">Precio Unitario</label>
+        <input id="Precio_unit" asp-for="Precio_unit" class="form-control" />
+        <span asp-validation-for="Precio_unit" class="badge bg-danger"></span>
+        <br />
+
+        <label asp-for="Existencia"></label>
+        <input id="Existencia" asp-for="Existencia" class="form-control" />
+        <span asp-validation-for="Existencia" class="badge bg-danger"></span>
+        <br />
+
+        <label asp-for="Garantia"></label>
+        <input id="Garantia" asp-for="Garantia" class="form-control" />
+        <span asp-validation-for="Garantia" class="badge bg-danger"></span>
+        <br />
+        <br />
+        <input type="submit" name="btnEliminar" value="Eliminar" class="btn btn-danger"/>
+        <input type="submit" name="btnModificar" value="Modificar" class="btn btn-warning" />
+        <input type="submit" name="btnFiltrar" value="Filtrar" class="btn btn-info" />
+        
+
+    </form>
+</fieldset>
+
+<!-- TABLA PRODUCTOS -->
+
+<div style="margin:auto; width:600px; height:auto;">
+
+    <h3>Tabla Productos</h3>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Codigo Producto</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precio Unitario</th>
+                <th>Existencia</th>
+                <th>Garantia</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cliente in ViewBag.lista)
+            {
+                <tr>
+                    <td>@cliente.</td>
+                    <td>@cliente.</td>
+                    <td>@cliente.</td>
+                    <td>@cliente.</td>
+                    <td>@cliente.</td>
+                    <td>@cliente.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

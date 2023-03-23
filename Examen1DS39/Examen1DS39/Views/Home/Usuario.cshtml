@@ -1,5 +1,22 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model Usuario
+
+<h3>Inicio Usuario</h3>
+<hr />
+<fieldset>
+    <form asp-action="Usuario" asp-controller="Home" method="post" id="form1">
+
+        <label asp-for="NombreUsuario">Nombre Usuario</label>
+        <input id="NombreUsuario" asp-for="NombreUsuario" class="form-control"/>
+        <span asp-validation-for="NombreUsuario" class="badge bg-danger" ></span>
+        <br />
+
+        <label asp-for="Contra">Contraseña</label>
+        <input id="Contra" asp-for="Contra" class="form-control" />
+        <span asp-validation-for="Contra" class="badge bg-danger"></span>
+        <br />
+        <br />
+        <input type="submit" name="btnIngresar" value="Ingresar" class="btn btn-success"/>
+        <input type="submit" name="btnCliente" value="Para Cliente Haz Click Aqui" class="btn btn-warning"/>
+    </form>
+     
+</fieldset>
